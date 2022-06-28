@@ -39,13 +39,13 @@ div#header {
     width:0;
     height:100vh;
     overflow:hidden;
-    background-color:#eaeaea;
     box-shadow: 5px 0px 20px #262626;
     display:none;
+    background-color:#eaeaea;
   }
   
   .active{
-    width:80%;
+    width:70%;
     max-width:450px;
     transition: width 0.6s;
     display:inherit;
