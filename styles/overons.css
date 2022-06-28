@@ -40,7 +40,7 @@ div#header {
   }
   
   .active{
-    width:60%;
+    width:80%;
     max-width:450px;
     transition: width 0.6s;
     display:inherit;
@@ -48,6 +48,8 @@ div#header {
   
   nav ul li a {
     text-decoration:none;
+    font-family:"Prata";
+    line-height:2.5em;
   }
   
   nav ul li a:hover {

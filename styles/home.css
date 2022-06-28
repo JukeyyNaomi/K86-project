@@ -64,7 +64,7 @@
   }
   
   .active{
-    width:60%;
+    width:70%;
     max-width:450px;
     transition: width 0.6s;
     display:inherit;
