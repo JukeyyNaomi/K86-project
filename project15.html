@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>Icon design | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper roos-blok3-project1">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/illustrator.png">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/illustrator.png">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div class="fit-image-height p-2-1-custom">
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/Roos/Blok 3/1.png" alt="Het icoon voor ontdekken in een grid">
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Schetsen.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Illustreren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Gebruiken.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>Ik ben vast niet de enige die na een lange, frustrerende zoektocht naar de perfecte iconen heeft gedacht ‘ik maak de volgende keer gewoon mijn eigen.’ Nu was mijn kans om het ook te doen. Iconen moeten begrijpelijk zijn en gelijk duidelijk maken wat het representeerd. Zo kun je tekst ondersteunen of zelfs helemaal weg laten (een floppy disc icoon betekent bijvoorbeeld opslaan). Omdat ik er naartoe wil heb ik iconen voor de emigratie website van Nieuw Zeeland gemaakt.  </p>
+                                <br/>
+                                <p>
+                                    Benodigheden:
+                                    <ul>
+                                        <li>Testpersonen</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height p-2-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Roos/Blok 3/2.png" class="lazy" alt="Geschetste iconen">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Schetsen</h3>
+                        <p>Nadat ik naar de wesbiste van emigratie had gekeken had ik besloten om tekst ondersteunende iconen te ontwerpen. Om te beginnen heb ik een lijstje gemaakt met potentiele iconen. Daarna ben ik zo veel mogelijk gaan schetsen. Als ik er even niet uit kwam ben ik gaan onderzoeken naar hoe ik een woord het beste kon omzetten in beeld.  </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Roos/Blok 3/3.png" class="lazy" alt="De eerste versies van de iconen">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Illustreren</h3>
+                        <p>Met een heleboel schetsen in bezit ben ik gaan illustreren. In Adobe Illustrator heb ik een basis document opgemaakt met wat grids. Met bijna elk icoon heb ik vaak geitereerd om zo tot het meest sprekend beeld te komen. Wanneer ik hiermee klaar was heb ik ze als SVG’s geexporteerd en met Glyphter heb ik er een iconen font van gemaakt. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Roos/Blok 3/4.png" class="lazy" alt="Testresultaten van de iconen test">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Testen</h3>
+                        <p>Om te kijken of mijn bedoeling goed over kwam heb ik mijn iconen bij 30 mensen getest. Om ze zo min mogelijk te sturen heb ik zonder context gevraagd wat mijn testpersonen in de iconen zagen. De resultaten waren zo dat er weinig of geen aanpassingen nodig waren.  </p>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Probeer een icoon zo simpel mogelijk te houden zodat het herkenbaar blijft als hij klein is. </li>
+                            <li>Verdiep jezelf in symbolisme. Voor de ene cultuur kan je icoon heel wat anders betekenen dan de andere.</li>
+                            <li>Werk met een grid, zo zorg je er voor dat je iconen in omvang gelijk zijn. </li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Iconen ontwerpen lijkt op eerste gezicht heel makkelijk, en dat kan het ook zijn. Ik raad het wel 100% aan om het een keer te proberen, want in dit vakgebied gebruiken we overal iconen. Mensen kijken liever dan lezen. Ik was zelf heel erg verdwaald toen ik aan dit project begon, dus heb ik aan het einde een ‘iconen 101’ geschreven voor degene die het ook een keer willen proberen. </p>
+                    </div>
+                    <!-- PLAATS HIER EVENTUELE LINKS NAAR PROTOTYPE/PUBLICATIES ONLINE/TUTORIALS -->
+                    <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:fa42c924-ff2c-3c6c-839d-23bf10b1eef3" target="_blank">Klik hier voor mijn iconen guide</a>
+                    <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:5b420c68-7ff6-36bc-adee-75cdbf64a6ca" target="_blank">Klik hier om alle iconen in te zien</a>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">Icon design</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Roos</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">Icon design</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Roos</p> 
+                  </div>
+        </div>
+	</body>
+</html>

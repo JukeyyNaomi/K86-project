@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Minor K86 | Blok 4 visual design</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/minor.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper">
+                        <article class="bodyElement firstSlide">
+                            <div class="image1">
+                                <h2>Visual design & frontend development</h2>
+                                <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_fx00rorr.json" background="transparent"  speed="1" loop autoplay></lottie-player>
+                            </div>
+                            <div class="content">
+                                <div>
+                                    <p>Wil jij je al een tijdje verdiepen in een nieuwe software/tool of nieuwe skill, maar heb je het door de studie en een bijbaantje daarnaast nog geen tijd voor gehad? Dan is Visual design & frontend development perfect voor jou! De minor wordt gegeven gedurende semester F en bestaat uit drie tijdsblokken, die elk 5 weken duren. In die blokken kun je er voor kiezen om Lottie animaties, InDesign, React etc. te leren. In het laatste blok werk je in een groepje om je projecten van de vorige blokken te presenteren in een portfolio. Je krijgt begeleiding tijdens het proces, maar je vult de minor in zoals jij dat wilt!</p>
+                                </div>
+                                <div class="image2 fit-image-height p-2-1-custom">
+                                    <img src="images/Minor/2.png">
+                                </div>
+                            </div>
+                            <aside class="scrollAnimate">
+                                <!-- <p>scroll</p>
+                                <div class="mouse">
+                                    <div class="mouse-wheel"></div>
+                                </div> -->
+                                <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_e7c8ngee.json" background="transparent"  speed="1.5" loop autoplay></lottie-player>
+                            </aside>
+                        </article>
+                        <article class="bodyElement secondSlide">
+                            <div>
+                                <p>Het kan best moeilijk zijn om te bepalen waar jij je in wilt verdiepen, als je hier nog niet veel over na heb gedacht. Daarom hebben de docenten al een lijst met thema’s en je kan een kijkje nemen naar het werk dat wij hebben gemaakt ;) Tijdens de minor staan de docenten, maar ook zeker je medestudenten klaar om je te helpen en feedback te geven. Het is een mooie tijd om van elkaar te leren. Afhankelijk van de gekozen onderwerpen, worden er masterclasses aangeboden, waarbij professionals hun expertise en ervaringen delen. </p>
+                            </div>
+                            <div class="p-2-1-custom">
+                                <img data-src="images/Minor/3.png" class="lazy">
+                            </div>
+                            <div>
+                                <p>
+                                <em>*Hierboven volgt een overzicht van de tijdsblokken en de losse beoordelingsmomenten (B1, B2, B3). In het grijs staan de deadlines van elk tijdsblok.</em>
+                                <br/><br/>
+                                Je zorgt en verzameld zelf het studiemateriaal voor je gekozen thema. Dit kunnen LinkedIn Learning cursussen zijn, YouTube tutorials, boeken etc. <br/>
+                                Binnen de minor worden de volgende competenties  ontwikkeld en getoetst;  
+                                <ul>
+                                    <li>Visualiseren & Prototypen</li>
+                                    <li>Reflecteren</li>
+                                </ul>
+                            </p>
+                            </div>
+                        </article>
+
+					
+                </div>
+		  </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="#" onclick="return false;" class="menu menuElement" id="menuWeb"><img src="images/menu.png"></a>
+                        <div class="titleText">
+                            <h2 class="sticky">Over ons</h2>
+                            <!-- <p class="sticky">Chrissy, Jade, Patrick, Roos, Naomi</p> -->
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="#" onclick="return false;" class="menu menuElement" id="menuMobile"><img src="images/menu.png"></a>
+                  <div class="titleText">
+                      <h2 class="sticky">Over de minor</h2>
+                      <!-- <p class="sticky">Chrissy, Jade, Patrick, Roos, Naomi</p> -->
+                  </div>
+        </div>
+
+		  <nav id="menu" class="inactive">
+			<a href="#" onclick="return false;" class="exit"><img src="images/exit.png"></a>
+			<ul>
+				<li><a href="index.html" >Home</a></li>
+				<li><a href="overons.html" >Over ons</a></li>
+				<li><a href="minor.html" >Over de Minor</a></li>
+			</ul>
+		</nav>
+	</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Blok 4 visual design</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="main.css" rel="stylesheet" />
+		<!-- <link type="text/css" href="CSS/layout.css" rel="stylesheet" />	 -->
+		<!-- <link rel="icon" href="images/tab-icon.png"> -->
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper">
+					<article class="bodyElement intro">
+						<div>
+							<h1>Welkom bij ons portfolio voor K86</h1>
+							<br/>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. Eu vel pellentesque purus suspendisse vitae, mattis consectetur.</p>
+						</div>
+					</article>
+				
+					<aside class="scrollAnimate">
+							<p>scroll</p>
+							<div class="mouse">
+								<div class="mouse-wheel"></div>
+							</div>
+					</aside>
+				
+					<main class="bodyElement books">
+						<header class="header">
+							<div class="headerContainer">
+								<div class="headmenu" id="navbar">
+									<!-- <a href="index.html"><img src="images/Logo-nieuw.png"></a> -->
+									<div class="menutoggle" id="navbar-right">
+										<a href="#" onclick="return false;" >&#9776;</a>
+									</div>
+								</div>
+								<nav id="menu" class="inactive">
+									<ul>
+										<!-- <li><a href="#banner" >Home</a></li> -->
+										<li><a href="#" >Counselling</a></li>
+										<li><a href="#" >Advies</a></li>
+										<li><a href="#" >Workshops & trainingen</a></li>
+										<li><a href="#" >Werkwijze</a></li>
+										<li><a href="#" >Over mij</a></li>
+										<li><a href="#">Contact</a></li>
+										<!-- <li class="mobile"><a href=""><img src="images/phone-alt.png">&nbsp;<span>06 41171414</span></a></li>
+										<li class="mobile"><a href=""><img src="images/mail.png">&nbsp;<span>Angelique@newme.nl</span></a></li>  		 -->
+									</ul>
+								</nav>
+							</div>
+						</header>
+						<h2>Portfolio</h2>
+						<p>Chrissy, Jade, Patrick, Roos, Naomi</p>
+						<div>
+							<div>
+								<h3>Project naam</h3>
+								<p>Auteur <br/> Nog iets</p>
+							</div>
+						</div>
+					</main>
+			  </div>
+		  </div>
+
+
+	    <!-- <footer class="foot"><p>&copy;&nbsp;Angelique Beekhuizen counselling & Advies 2022 &nbsp;( Design & development door NoomsGalaxy )</p></footer> -->
+
+
+	  
+	</body>
+</html>

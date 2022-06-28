@@ -1,0 +1,151 @@
+
+
+/* GLOBAL STYLING */
+
+@font-face {
+  font-family: "Prata";
+  src:url("../fonts/Prata-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat regular";
+  src:url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat bold";
+  src:url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat semibold";
+  src:url("../fonts/Montserrat-SemiBold.ttf");
+}
+
+body {
+  margin:0;
+  padding:0;
+  background-color: #fcfaf9;
+}
+
+*, 
+*:before,
+*:after{
+	box-sizing: border-box;
+  font-family: "Montserrat regular";
+  line-height:1.5em;
+  text-underline-offset: 5px;
+  color:#2e2e2e;
+  z-index:2;
+  transition:ease-in-out 0.25s;
+}
+
+a:hover, button:hover {
+  cursor:pointer;
+}
+
+a.sticky {
+  text-decoration:none;
+  cursor: unset;
+  font-size:1.2em;
+}
+
+h1{
+  font-size: 40px;
+  line-height:1.5em;
+  font-family: "Prata";
+  margin-bottom:0;
+}
+
+h2 {
+  font-size: 30px;
+  line-height:1.5em;
+  font-family: "Prata";
+}
+
+h3 {
+  font-size: 18px;
+  line-height:initial;
+  font-family: "Prata";
+}
+
+h4 {
+  font-size: 18px;
+  line-height:initial;
+  font-family: "Montserrat semibold";
+}
+
+p {
+  font-size: 14px;
+  font-family: "Montserrat regular";
+  line-height:1.5em;
+  font-weight:normal;
+}
+
+a.primairy {
+  background-color: #005EF5;
+  min-width:250px;
+  text-align:center;
+  padding: 12px 25px;
+  font-size: 18px;
+  border:none;
+  text-decoration: none;
+  font-family: "Montserrat semibold";
+  font-weight:bold;
+  color:white;
+  border-radius: 15px;
+}
+
+a.secundairy {
+  background: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  border:none;
+  font-family: "Montserrat semibold";
+  font-weight:bold;
+  color:#BB99E2;
+  border: 2px solid #BB99E2;
+  border-radius: 15px;
+}
+
+a.primairy:hover {
+  background-color: #8a5cc0;
+  transition:ease-in-out 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+}
+a.secundairy:hover {
+  background: none;
+  color:#8a5cc0;
+  border:2px solid #8a5cc0;
+  transition:ease-in-out 0.25s;
+  cursor:pointer;
+}
+
+
+@media only screen and (min-width:1001px){
+    
+  h1{
+    font-size: 55px;
+    line-height:1.5em;
+    margin-bottom:0;
+  }
+  
+  h2 {
+    font-size: 35px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height:1.5em;
+  }
+
+  a.primairy {
+    min-width:unset;
+  }
+
+}

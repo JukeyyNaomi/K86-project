@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>Client case | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper naomi-blok3-project1">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/Figma-logo.svg">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/Figma-logo.svg">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div class="fit-image-height p-2-1-custom">
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/Naomi/Blok 3/1.png" alt="Home scherm van mijn client case">
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Leren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Conceptualiseren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Prototypen.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>Tijdens het laatste blok heb ik besloten om mij te gaan verdiepen in het programma Figma. Veel bedrijven vragen tegenwoordig naar kennis van Figma en er zitten bepaalde elementen in Figma die niet in adobe XD zitten. Om mijn leerdoel in de praktijk uit te voeren heb ik gekozen een client case te doen. De client is een lokale chocolaterie in Leiderdorp genaamd Cacao van jou. Gedurende 5 weken heb ik een hifi prototype gemaakt voor de desktop variant van de website.</p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Naomi/Blok 3/2.png" class="lazy" alt="Meeloop dag bij het bedrijf. ">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Onderzoek</h3>
+                        <p>Voorafgaand aan het project heb ik eerst onderzoek uitgevoerd. Ik heb een kennismakingsgesprek gehouden met de eigenaar van Cacao van jou en heb mensen uit de doelgroep weten te spreken tijdens een chocolade workshop. Ook heb ik een concurrentenanalyse en trendanalyse uitgevoerd om een zo goed mogelijk ontwerp te maken voor de website. Daarnaast heb ik ook onderzocht hoe Figma werkt door tools uit te proberen, tutorials te kijken en voornamelijk te oefenen.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height p-2-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Naomi/Blok 3/3.png" class="lazy" alt="Buttons, auto-layout en componenten die bij de huisstijl passen.">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Conceptualiseren</h3>
+                        <p>In de tweede stap heb ik mijn schetsen uitgewerkt in wireframes in Figma. Dit heb ik gedaan door elementen te maken in frames en deze frames op elkaar te schuiven tot zich een pagina vormt. Om er voor te zorgen dat veel van de elementen hetzelfde bleven door alle pagina’s heen heb ik gebruik gemaakt van auto-layout en componenten. Meer over hoe je dit kan maken in mijn youtube video (link staat verderop).</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Naomi/Blok 3/4.png" class="lazy" alt="verzicht van alle schermen van het HiFi prototype in Figma">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Prototype maken</h3>
+                        <p>In de laatste stap heb ik mijn wireframes uitgewerkt in een hifi prototype. Voor Cacao van jou heb ik een nieuw logo gemaakt en een compleet nieuwe huisstijl. Met deze elementen heb ik het hifi prototype opgesteld. Om er zeker van te zijn dat de website aansluit op de behoeftes van de gebruiker heb ik twee user testen uitgevoerd.</p>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Ga eerst wat video’s kijken over de basics en gevorderde basics van Figma, dit helpt erg wanneer je nog niet eerder met het programma hebt gewerkt.</li>
+                            <li>Wees er op tijd bij als je een client case doet. Ik heb een week voor het begin van dit blok al contact opgenomen en ik ken de eigenaar van dit bedrijf. Andere klasgenoten hadden minder geluk met het vinden van een klant.</li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Dankzij het uitvoeren van een client case kreeg ik het gevoel dat ik Figma niet alleen voor mezelf, maar ook voor mijn klant heb geleerd. Ik ben erg tevreden over de hifi prototype fase in figma, maar wireframes zou ik toch liever in adobe xd maken, daar heb ik meer vrijheid.  Soms kunnen de tools in Figma niet goed terug springen naar het juiste icon voor de cursor, dat kan soms vrij verwarrend werken.</p>
+                    </div>
+                    <!-- PLAATS HIER EVENTUELE LINKS NAAR PROTOTYPE/PUBLICATIES ONLINE/TUTORIALS -->
+                    <a href="https://youtu.be/79sZ5T8jq8s" target="_blank">Youtube figma tutorial door mij</a>
+                    <a href="https://www.figma.com/proto/El8hx7WFK0lM5HocuVxcIY/Cacao-van-jou?node-id=203%3A1863&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=203%3A1863&hide-ui=1" target="_blank">Prototype link</a>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">Client case</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Naomi</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">Client case</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Naomi</p> 
+                  </div>
+        </div>
+	</body>
+</html>

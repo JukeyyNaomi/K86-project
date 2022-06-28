@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>Lottie animatie | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper naomi-blok2-project1">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/aftereffects.png">
+                                &nbsp;
+                                <img src="images/illustrator.png">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/aftereffects.png">
+                                &nbsp;
+                                <img src="images/illustrator.png">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div>
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <!-- <img src="images/vulfoto.jpg"> -->
+                                <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_fx00rorr.json" background="transparent"  speed="1" loop autoplay></lottie-player>
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Schetsen.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Illustreren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Animeren.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>Lottie is de nieuwe manier van animeren voor web. Veel programma’s, zoals adobe en figma werken inmiddels met lottiefiles. Je kunt veel verschillende dingen maken dankzij Lottie, zo kan je knoppen maken en interactieve elementen, zoals een loading screen. Ook kan je Lottie gebruiken voor de vormgeving van jouw website. Het tweede heb ik gebruikt voor mijn project. Ik wou mijn website interactiever maken door Lotties te maken die static afbeeldingen moet vervangen in animaties.</p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height p-2-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Naomi/blok 2/2.png" class="lazy" alt="Schets van de animatie in het begin van de pagina">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Schetsen</h3>
+                        <p>Voor mijn deliverable wilde ik 10 animaties maken in de huisstijl van mijn eigen portfolio website en ik wou 10 animaties maken in de huisstijl van CMD den Haag. Ik ben begonnen met het schetsen van ideeën die ik uit zou willen werken in een Lottie. 
+                            Voor de huisstijl van CMD den Haag ben ik gaan onderzoeken wat voor static elementen er nu op de huidige website staan en hoe ik deze kan vervangen voor interactieve elementen.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height p-2-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Naomi/blok 2/3.png" class="lazy" alt="Ik heb eerst de illustraties gemaakt in mijn teken tablet, vervolgens heb ik de artboards geïmporteerd in Adobe After Effects. Hierin heb ik de illustraties geanimeerd.">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Illustreren</h3>
+                        <p>Vervolgens heb ik de elementen gemaakt met adobe illustrator. Al in deze fase was er al het een en ander waar ik aan moest voldoen om de vormen lottie proof te maken. Zo kan je bijvoorbeeld niet meerdere artboards aanmaken en vervolgens in adobe after effects zetten, want dan verschijnen de vormen niet. Ook kan je beter geen gradients gebruiken, dit kun je echter wel doen op een element die je in after effects hebt gemaakt (alle tips staan verwerkt in het document lottie 101).</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Naomi/blok 2/4.png" class="lazy" alt="Dit is een voorbeeld van het animeren van een illustratie in AE.">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Animeren</h3>
+                        <p>Tijdens stap drie kwam het aan op het animeren van de elementen die ik in Illustrator heb gemaakt. Hier kwam ook het een en ander bij kijken, want veel elementen worden nog niet herkend door lottie. Dit zijn zoal: illustrator (.AI) files, gradients op shapes die niet in AE gemaakt zijn, video-effecten (FX) en 3D effecten. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep lottieGrid">
+                    <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_miaf2fwo.json" background="transparent"  speed="1" style="height:25%;" loop autoplay></lottie-player>
+                    <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_42pi881r.json" background="transparent"  speed="1" style="height:25%;" loop autoplay></lottie-player>
+                    <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_zqr0o4fp.json" background="transparent"  speed="1" style="height:25%;" loop autoplay></lottie-player>
+                    <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_3rex3dkf.json" background="transparent"  speed="1" style="height:25%;" loop autoplay></lottie-player>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Bestudeer de Lottie guidelines, ofwel wat support lottie wel en niet, bespaart je een hoop werk.</li>
+                            <li>Zet eerst je AI bestanden in After effects om door ‘make shapes from vector’ aan te klikken, lottie ondersteund geen AI bestanden.</li>
+                            <li>Neem mijn Lottie 101 door voor het geval je ergens vastloopt.</li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Ik ben erg blij dat ik heb gekozen voor lottie animatie. Door deze nieuwe manier van animatie te bestuderen heb ik ook veel kunnen leren van After Effects. De animaties zijn zeer gemakkelijk in websites te plaatsen, zowel code als wordpress websites. Het is tot nu toe de enige vorm van animatie die ik heb gezien die met een transparante achtergrond direct in een website geladen kan worden. </p>
+                    </div>
+                    <!-- PLAATS HIER EVENTUELE LINKS NAAR PROTOTYPE/PUBLICATIES ONLINE/TUTORIALS -->
+                    <a href="https://lottiefiles.com/cmeulonouk" target="_blank">Klik hier om al mijn Lotties te zien</a>
+                    <a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:a36bf4d1-d567-3198-8dd9-f256abe1da1b" target="_blank">Klik hier voor mijn Lottie 101 guide</a>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">Lottie animatie</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Naomi</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">Lottie animatie</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Naomi</p> 
+                  </div>
+        </div>
+	</body>
+</html>

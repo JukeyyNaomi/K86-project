@@ -1,0 +1,300 @@
+/* Header styling */
+
+.menuElement img {
+    width:40px;
+  }
+
+.titleText h2{
+    padding:0;
+    margin:0;
+}
+  
+  .exit img {
+    width: 40px;
+  }
+  
+div#header {
+    top: 0;
+    padding:3%;
+    position:fixed;
+    max-width:380px;
+    background-color:#eaeaea;
+    display:flex;
+    gap:15px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+  div.stickyWeb {
+    display:none;
+  }
+  
+  .titleText {
+    margin-left:2vw;
+  }
+  
+  .exit {
+    position:absolute;
+    top:2vh;
+    left:2vw;
+  }
+  
+  
+  /* BODY STYLING */
+  
+  
+  .outer-wrapper {
+    width: 100vw;
+    position:absolute;
+  }
+  
+  .bodyElement {
+    width:100vw;
+  }
+
+  .firstSlide {
+    width:100vw;
+  }
+
+
+  .grid-container-project-intro {
+    width:100vw;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "image"
+    "icons"
+    "text";
+    padding:5vh 5vw;
+    background-repeat:no-repeat;
+    background-position: -10% 150%;
+    background-size:75vh;
+  }
+
+  /* .grid-container-project-intro {
+    width:100vw;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 40vw 50vw;
+    grid-template-areas: 
+    "image ."
+    "image icons"
+    "image text"
+    "image text";
+    padding:5vh 5vw;
+    background-repeat:no-repeat;
+    background-position: -10% 150%;
+    background-size:75vh;
+  } */
+
+  .figma {
+    background-image: url('../images/Figma-logo.svg');
+    background-position: 0% 350%;
+    background-size:60vh;
+  }
+
+  .animate {
+    background-image: url('../images/Animate.png');
+  }
+
+  .ae {
+    background-image: url('../images/Aftereffects.png');
+  }
+
+  .blender {
+    background-image: url('../images/Blender.png');
+    background-position: -10% 120%;
+  }
+
+  .illustrator {
+    background-image: url('../images/Illustrator.png');
+  }
+
+  .indesign {
+    background-image: url('../images/Indesign.png');
+  }
+
+  .lottie {
+    background-image: url('../images/Lottie.svg');
+  }
+
+  .vscode {
+    background-image: url('../images/visualstudiocode.png');
+  }
+
+  #featured-image {
+    grid-area: image;
+    padding:5vh 5vw;
+  }
+
+  /* #featured-image div {
+    width:30vw;
+    height:30vw;
+    overflow:hidden;
+    position:absolute;
+    top:25vh;
+  } */
+  #featured-image div {
+    width:30vw;
+    height:30vw;
+    overflow:hidden;
+    position:absolute;
+    top:25vh;
+  }
+  
+  #featured-image div img{
+    height:100%;
+  }
+
+  #intro-text {
+    grid-area: text;
+    margin: 0 auto;
+    width:75%;
+  }
+
+  #icons {
+    grid-area: icons;
+  } 
+
+  .stepsIcons {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 2vw;
+  }
+
+  .stepContainer {
+    width:7vw;
+    height:7vw;
+    min-width: 80px;
+    min-height: 80px;
+    overflow:hidden;
+    border-radius:1000px;
+    background-color:#F7EAD8;
+  }
+
+  .stepContainer img {
+    /* object-position:50% 50%; */
+    width:90%;
+    margin:5%;
+    /* object-fit: cover; */
+    /* height:100%; */
+  }
+
+
+  /* Layout stappenplan */
+ 
+.projectStep{
+    width:60vw;
+    height:100vh;
+    display:flex;
+    flex-flow:column;
+    padding: 5vh 10vw;
+    justify-content:space-between;
+}
+
+.projectStep:nth-child(even){
+    flex-flow:column-reverse;
+}
+
+.projectImage {
+    width:40vw;
+    height:50vh;
+    overflow:hidden;
+    background-color:#eaeaea;
+}
+
+.projectImage img {
+    height:100%;
+} 
+
+.summary {
+    width:50vw;
+    height:100vh;
+    padding:5vh 7vw;
+    display:flex;
+    flex-flow:column;
+    gap:3vh;
+    background-color:#F7EAD8;
+}
+
+.summary a {
+    line-height:1em;
+}
+
+
+
+
+  /* PERSONAL STYLING PROJECTPAGINA'S */
+
+
+
+
+ 
+  
+  
+  /* ----------- I PAD VERSIE --------------- */
+  
+  @media only screen and (min-width: 661px){
+  
+    /*--- Body styling ---*/
+  
+  }
+  
+  /* ------------ DESKTOP VERSIE -------------- */
+  
+  @media only screen and (min-width:1001px){
+    
+    .outer-wrapper {
+      width: 100vw;
+      height: 100vh; 
+      transform: rotate(-90deg) translateX(-100vh);
+      transform-origin: top left;
+      position:absolute;
+    }
+    
+    .wrapper {
+      display:flex;
+      flex-direction:row;
+      width:510vw;
+      transform: rotate(90deg) translateY(-100vh);
+      transform-origin: top left;
+    }
+    
+    .bodyElement {
+      width:100vw;
+      height:100vh;
+    }
+  
+  .active{
+    width:40%;
+  }
+
+  div#header {
+    top: 2vh;
+    left: 7vw;
+    margin-top:5vh;
+    display:flex;
+    overflow-y:scroll;
+    overflow-x:hidden; padding:0;
+}
+  
+  .stickyMobile {
+    display:none;
+  }
+  
+  .stickyWeb {
+    display:inherit;
+  }
+
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,274 @@
+/* Header styling */
+
+.menu img {
+    width:70px;
+  }
+  
+  .exit img {
+    width: 40px;
+  }
+  
+div#header {
+    top: 0;
+    padding:3%;
+    position:fixed;
+    max-width:380px;
+    display:flex;
+    gap:15px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+  div.stickyWeb {
+    display:none;
+  }
+  
+  .titleText {
+    margin-left:2vw;
+  }
+  
+  nav {
+    position:fixed;
+    left:0;
+    top:0;
+    width:0;
+    height:100vh;
+    overflow:hidden;
+    background-color:#eaeaea;
+    box-shadow: 5px 0px 20px #262626;
+    display:none;
+  }
+  
+  .active{
+    width:60%;
+    max-width:450px;
+    transition: width 0.6s;
+    display:inherit;
+  }
+  
+  nav ul li a {
+    text-decoration:none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration:underline;
+    text-underline-offset: 10px;
+    transition: ease-in-out;
+    transition-duration: 10ms;
+  }
+  
+  nav ul {
+    list-style-type:none;
+    line-height:2em;
+    font-size:2em;
+    margin-top:10vh;
+    margin-left:4vw;
+  }
+  
+  .exit {
+    position:absolute;
+    top:2vh;
+    left:2vw;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* BODY STYLING */
+  
+  
+  .outer-wrapper {
+    width: 100vw;
+    position:absolute;
+  }
+  
+  .bodyElement {
+    width:100vw;
+  }
+
+  .intro {
+    height:70vh;
+    background-image: url('../images/shoot/team.png');
+    background-repeat: no-repeat;
+    background-size:100vw;
+    background-position:0% 50%;
+  }
+
+
+  .grid-container-person {
+    width:100vw;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-row-gap:5vh;
+    grid-template-areas: 
+    "image"
+    "main"
+    "main"
+    "buttons";
+    padding:0vh 5vw 10vh 5vw;
+  }
+
+  .grid-container-person:nth-child(odd) {
+    background-color:#F7F6EF;
+  }
+
+  .about-container-image {
+    grid-area: image;
+  }
+
+  .about-container-image div {
+    height: 75vh;
+    width: 90vw;
+    overflow:hidden;
+  }
+  
+  .about-container-image div img{
+    height:100%;
+  }
+
+  .about-container-text {
+    grid-area: main;
+    padding: 10vh auto;
+    display:flex;
+    flex-flow:column;
+    align-self:flex-end;
+    gap: 5vw;
+  }
+
+  .about-container-text img {
+    width:35px;
+  }
+
+  .about-container-buttons {
+    grid-area: buttons;
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    gap:5vw;
+  }
+ 
+  
+  
+  /* ----------- I PAD VERSIE --------------- */
+  
+  @media only screen and (min-width: 661px){
+  
+    /*--- Body styling ---*/
+  
+  }
+  
+  /* ------------ DESKTOP VERSIE -------------- */
+  
+  @media only screen and (min-width:1001px){
+    
+    .outer-wrapper {
+      width: 100vw;
+      height: 100vh; 
+      transform: rotate(-90deg) translateX(-100vh);
+      transform-origin: top left;
+      position:absolute;
+    }
+    
+    .wrapper {
+      display:flex;
+      flex-direction:row;
+      min-width:600vw;
+      transform: rotate(90deg) translateY(-100vh);
+      transform-origin: top left;
+    }
+    
+    .bodyElement {
+      width:100vw;
+      height:100vh;
+    }
+  
+    .intro {
+      height:100vh;
+      background-size: 75vw;
+      background-position:70% 70%;
+    }
+  
+  
+  .active{
+    width:40%;
+  }
+
+  div#header {
+    top: 2vh;
+    left: 7vw;
+    margin-top:5vh;
+    display:flex;
+    overflow-y:scroll;
+    overflow-x:hidden; padding:0;
+}
+  
+  .stickyMobile {
+    display:none;
+  }
+  
+  .stickyWeb {
+    display:inherit;
+  }
+
+  .person-wrapper {
+    display:flex;
+    flex-direction:row;
+    width:500vw;
+  }
+
+  .grid-container-person {
+    height:100vh;
+    grid-row-gap:initial;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 5vw;
+    grid-template-areas: 
+    "image main"
+    "image buttons";
+    padding: 0 15vw 0 5vw;
+  }
+
+  .grid-container-person .about-container-image {
+    position:absolute;
+    bottom:0;
+  }
+
+  .about-container-image div {
+    height: 85vh;
+    width: 32vw;
+  }
+
+  .about-container-image div img {
+    position:absolute;
+    right:0;
+    left:auto;
+  }
+
+  .about-container-text {
+    flex-flow:row;
+  }
+
+  .about-container-text img {
+    width:60px;
+  }
+
+  .about-container-buttons {
+    flex-flow:row;
+    align-items:flex-start;
+    gap:2vw;
+    overflow:hidden;
+  }
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

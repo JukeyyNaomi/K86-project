@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>Client case | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper roos-blok2-project1">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/Figma-logo.svg">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/Figma-logo.svg">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div class="fit-image-height">
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/Roos/Blok 2/1.png" alt="Het logo van Night Owl Tattoo Shop">
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Onderzoek.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Conceptualiseren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Prototypen.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>Figma is een prototyping tool wat nu door heel veel bedrijven in plaats van Adobe XD wordt gebruikt. Het leek me daarom handig om het programma te ontdekken en te verkennen. Ik had net een website ontdekt van een tattoo shop in Den Haag dat redelijk toe was aan een herdesign. Zo hoopte ik ook aan een client case te komen, alleen waren de eigenaren niet geinteresseerd. Ik heb besloten om door te gaan met het project omdat ik voor mijn pitch al was begonnen en ik een duidelijke visie had.  </p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Roos/Blok 2/2.png" class="lazy" alt="Onderzoek op het internet">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Onderzoek</h3>
+                        <p>Omdat de tattoo shop geen interesse had heb ik de naam veranderd en een nieuw logo ontworpen. Ik ben begonnen met een heuristic evaluation om te kijken wat de eventuele verbeterpunten waren. Daarna heb ik een kleine concurrentie onderzoek gedaan, user stories opgesteld en een sitemap gemaakt.  </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Roos/Blok 2/3.png" class="lazy" alt="De wireframes van Night Owl Tattoo Shop">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Conceptualiseren</h3>
+                        <p>Na het onderzoek heb ik een aantal wireframes gemaakt. Hier heb ik veel geitereed tot dat ik zelf blij was met de indeling van informatie en beeld. Halverwegen bedacht ik me dat ik was vergeten om mobile first te denken, dus heb ik ook wireframes voor mobiel in elkaar gezet.  </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Roos/Blok 2/4.png" class="lazy" alt="Het prototype van Night Owl Tattoo Shop">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Prototypen</h3>
+                        <p>Tijdens het bouwen van het prototype heb ik veel tutorials moeten kijken over Figma. Veel dingen werken net zoals in Adobe XD maar niet alles. Ik heb hier vooral gefocussed op responsiveness (on-hovers en kleine animaties).  </p>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Vergeet niet om mobile first te denken. </li>
+                            <li>Begin optijd.</li>
+                            <li>Doe (de juiste soort) onderzoek en vergeet niet voor wie je bouwt. </li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Een prototye bouwen is altijd leuk, maar het is leuker en leerzamer als je ook een echte client case hebt. Op iemand af stappen en een nieuwe website pitchen vond ik ook erg lastig, maar ik heb geleerd om het bij de volgende pitch anders aan te pakken en niet te snel op te geven. Door dit project heb ik wel geleerd om met Figma te werken, wat voor mij het belangrijkste leerdoel was.  </p>
+                    </div>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">Client case</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Roos</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">Client case</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Roos</p> 
+                  </div>
+        </div>
+	</body>
+</html>

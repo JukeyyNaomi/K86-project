@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>Front-end | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper chrissy-blok2-project1">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/visualstudiocode.png">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/visualstudiocode.png">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div>
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/Chrissy/Blok 2/1.png" alt="De homepage van mijn portfolio website">
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Onderzoek.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Schetsen.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Coderen.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>Tijdens dit project ben ik een hi-fi prototype gaan coderen doormiddel van html en css. Dit wilde ik graag leren omdat ik in het verleden wel websites heb gecodeerd, en prototypes, maar ik heb nooit zelf de stap gezet van prototype naar coderen. De relevantie was voor mijzelf, omdat ik het bestaande hi-fi prototype van mijn portfolio website heb gekozen om te coderen. Deze kan ik dan blijven updaten en voor toekomstige sollicitaties/opdrachten gebruiken. </p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Chrissy/Blok 2/2.png" class="lazy" alt="Een voorbeeld van een mal voor code">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Onderzoek</h3>
+                        <p>Om te beginnen heb ik mijn kennis van html en css opgefrist door een aantal tutorials, en heb ik de GitHub opgezet en deze gelinked aan VSCode. Hiermee kon ik de basis van de website opzetten, als een soort mal, waar ik later in het project de content van mijn portfolio in kon verwerken.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Chrissy/Blok 2/3.png" class="lazy" alt="Display van mijn content">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Schetsen</h3>
+                        <p>Aangezien coderen voor mij niks nieuws is, heb ik ervoor gekozen om de content van mijn portfolio op een nieuwe en interessantere manier te displayen dan hoe het er origineel in het prototype staat. Hiervoor heb ik een aantal schetsen gemaakt en ideeën gebrainstormd, vervolgens kon ik deze gaan doorvoeren en op zoek naar opties om dit uit te werken.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Chrissy/Blok 2/4.png" class="lazy" alt="Display van mijn content">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Coderen</h3>
+                        <p>Het laatste deel van dit project heb ik besteed aan het coderen, met veel trial and error, van mijn content en de manier waarop ik dit wou displayen. Toen ik alle puntjes op de i had gezet heb ik nog even gecontroleerd of alles in de GitHub ook compleet was, zodat ik deze link kon delen.</p>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Maak een goede planning en gun jezelf wat buffers als dingen langer duren dan verwacht.</li>
+                            <li>Hou je code netjes en maak aantekeningen, zo blijft alles overzichtelijk.</li>
+                            <li>Werk even ergens anders aan als je vastloopt, zo hou je je hoofd rustig.</li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Dit project was erg leuk om te doen, vooral omdat ik nu beide kanten van het vakgebied kon samenvoegen. Ik vergeet soms wel hoe lastig een website coderen ook alweer is, en dat heb ik deze weken zeker gemerkt. Het heeft even wat bloed zweet en tranen gekost, maar uiteindelijk ben ik erg tevreden met het resultaat.</p>
+                    </div>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">Front-end</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Chrissy</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">Front-end</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Chrissy</p> 
+                  </div>
+        </div>
+	</body>
+</html>

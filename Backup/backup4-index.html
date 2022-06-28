@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Home | Blok 4 visual design</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/home.css" rel="stylesheet" />
+		<!-- <link type="text/css" href="CSS/layout.css" rel="stylesheet" />	 -->
+		<!-- <link rel="icon" href="images/tab-icon.png"> -->
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper">
+					<article class="bodyElement intro">
+						<div>
+							<h1>Welkom bij ons portfolio voor K86</h1>
+							<br/>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. Eu vel pellentesque purus suspendisse vitae, mattis consectetur.</p>
+							<!-- <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_fx00rorr.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player> -->
+						</div>
+					</article>
+				
+					<aside class="scrollAnimate">
+							<p>scroll</p>
+							<div class="mouse">
+								<div class="mouse-wheel"></div>
+							</div>
+					</aside>
+				
+					<main class="bodyElement books">
+							<div class="stickyWeb">
+								<div id="container">
+									<div id="header">
+									  <a href="#" onclick="return false;" class="menu menuElement" id="menuWeb"><img src="images/menu.png"></a>
+											<div class="titleText">
+												<h2 class="sticky">Portfolio</h2>
+												<p class="sticky">Chrissy, Jade, Patrick, Roos, Naomi</p>
+											</div>
+									</div>
+								</div>
+							</div>
+							<div id="header" class="stickyMobile">
+								<a href="#" onclick="return false;" class="menu menuElement" id="menuMobile"><img src="images/menu.png"></a>
+									  <div class="titleText">
+										  <h2 class="sticky">Portfolio</h2>
+										  <p class="sticky">Chrissy, Jade, Patrick, Roos, Naomi</p>
+									  </div>
+							  </div>
+							<div class="library">
+								<div class="book 1">
+									<h3>Design systems</h3>
+									<div>
+										<p style="font-weight:bold;">Patrick Gamelkoorn</p>
+										<p >Figma <br/><br/> 
+											
+										</p>
+									</div>
+								</div>
+								<div class="book 2">
+									<h3>Magazine</h3>
+									<div>
+										<p style="font-weight:bold;">Jade van der Tuin</p>
+										<p >InDesign <br/> <br/>
+										
+										</p>
+									</div>								
+								</div>
+								<div class="book 3">
+									<h3>Back-end PHP</h3>
+									<div>
+										<p style="font-weight:bold;">Naomi Beekhuizen</p>
+										<p >VSCode <br/> 
+											Codecademy
+										</p>
+									</div>								
+								</div>
+								<div class="book 4">
+									<h3>Motion Graphics</h3>
+									<div>
+										<p style="font-weight:bold;">Chrissy Bril</p>
+										<p >After effects <br/> <br/>
+										
+										</p>
+									</div>								
+								</div>
+								<div class="book 5">
+									<h3>Animation</h3>
+									<div>
+										<p style="font-weight:bold;">Roos Huber</p>
+										<p >After effects <br/> 
+											Adobe Animate
+										</p>
+									</div>								
+								</div>
+								<div class="book 6">
+									<h3>Lottie animatie</h3>
+									<div>
+										<p style="font-weight:bold;">Patrick Gamelkoorn</p>
+										<p >Adobe Illustrator <br/> 
+											After effects
+										</p>
+									</div>								
+								</div>
+								<div class="book 7">
+									<h3>Image animatie</h3>
+									<div>
+										<p style="font-weight:bold;">Jade van der Tuin</p>
+										<p >After effects <br/> <br/>
+											
+										</p>
+									</div>								
+								</div>
+								<div class="book 8">
+									<h3>Lottie animatie</h3>
+									<div>
+										<p style="font-weight:bold;">Naomi Beekhuizen</p>
+										<p >Adobe Illustrator <br/> 
+											After effects
+										</p>
+									</div>								
+								</div>
+								<div class="book 9">
+									<h3>Front-end</h3>
+									<div>
+										<p style="font-weight:bold;">Chrissy Bril</p>
+										<p >VSCode <br/> <br/>
+											
+										</p>
+									</div>								
+								</div>
+								<div class="book 10">
+									<h3>Client case</h3>
+									<div>
+										<p style="font-weight:bold;">Roos Huber</p>
+										<p >Figma <br/> <br/>
+											
+										</p>
+									</div>								
+								</div>
+								<div class="book 11">
+									<h3>3D moduleren</h3>
+									<div>
+										<p style="font-weight:bold;">Patrick Gamelkoorn</p>
+										<p >Adobe Illustrator <br/> 
+											Blender
+										</p>
+									</div>								
+								</div>
+								<div class="book 12">
+									<h3>HiFi prototype</h3>
+									<div>
+										<p style="font-weight:bold;">Jade van der Tuin</p>
+										<p >Figma <br/> <br/>
+											
+										</p>
+									</div>								
+								</div>
+								<div class="book 13">
+									<h3>Client case</h3>
+									<div>
+										<p style="font-weight:bold;">Naomi Beekhuizen</p>
+										<p >Figma <br/> <br/>
+											
+										</p>
+									</div>								
+								</div>
+								<div class="book 14">
+									<h3>Isometric design</h3>
+									<div>
+										<p style="font-weight:bold;">Chrissy Bril</p>
+										<p >Adobe Illustrator <br/><br/> 
+											
+										</p>
+									</div>								
+								</div>
+								<div class="book 15">
+									<h3>Icon design</h3>
+									<div>
+										<p style="font-weight:bold;">Roos Huber</p>
+										<p >Adobe Illustrator <br/> <br/>
+											
+										</p>
+									</div>								
+								</div>
+							</div>
+					</main>
+
+					<article class="bodyElement intro">
+						<div>
+							<h2>Nawoord</h2>
+							<br/>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. Eu vel pellentesque purus suspendisse vitae, mattis consectetur.</p>
+						</div>
+					</article>
+			  </div>
+		  </div>
+
+		  <nav id="menu" class="inactive">
+			<a href="#" onclick="return false;" class="exit"><img src="images/exit.png"></a>
+			<ul>
+				<li><a href="index.html" >Home</a></li>
+				<li><a href="overons.html" >Over ons</a></li>
+				<li><a href="#" >Over de Minor</a></li>
+			</ul>
+		</nav>
+	</body>
+</html>

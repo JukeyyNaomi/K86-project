@@ -1,0 +1,290 @@
+/* Header styling */
+
+.menu img {
+    width:70px;
+  }
+  
+  .exit img {
+    width: 40px;
+  }
+  
+div#header {
+    top: 0;
+    padding:3%;
+    position:fixed;
+    max-width:380px;
+    display:flex;
+    gap:15px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+  div.stickyWeb {
+    display:none;
+  }
+  
+  .titleText {
+    margin-left:2vw;
+  }
+  
+  nav {
+    position:fixed;
+    left:0;
+    top:0;
+    width:0;
+    height:100vh;
+    overflow:hidden;
+    background-color:#eaeaea;
+    box-shadow: 5px 0px 20px #262626;
+    display:none;
+  }
+  
+  .active{
+    width:60%;
+    max-width:450px;
+    transition: width 0.6s;
+    display:inherit;
+  }
+  
+  nav ul li a {
+    text-decoration:none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration:underline;
+    text-underline-offset: 10px;
+    transition: ease-in-out;
+    transition-duration: 10ms;
+  }
+  
+  nav ul {
+    list-style-type:none;
+    line-height:2em;
+    font-size:2em;
+    margin-top:10vh;
+    margin-left:4vw;
+  }
+  
+  .exit {
+    position:absolute;
+    top:2vh;
+    left:2vw;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* BODY STYLING */
+  
+  
+  .outer-wrapper {
+    width: 100vw;
+    position:absolute;
+  }
+  
+  .bodyElement {
+    width:100vw;
+    padding:5%;
+  }
+
+  .firstSlide {   
+    padding-top:15vh;
+    display:flex;
+    flex-direction: column;
+   }
+
+  .secondSlide {
+    display:flex;
+    flex-flow:column;
+  }
+
+  .content, .secondSlide div:nth-child(2) {
+    width: 100%;
+  }
+
+  .content {
+    padding-top:0;
+  }
+
+  .content div {
+    padding-bottom:20px;
+  }
+
+  .image1 {
+    display:flex;
+    flex-flow:column;
+    align-items:flex-start;
+  }
+
+  .image2 {
+    width: 100%;
+    max-height:300px;
+    overflow:hidden;
+  }
+
+  .image3 {
+    width:80vw;
+    height:25vh;
+    overflow:hidden;
+  }
+
+  .secondSlide div:nth-child(3) {
+    margin-left:auto;
+  }
+
+  .secondSlide div:nth-child(2) {
+    margin: 0 auto;
+  }
+
+  .secondSlide div:nth-child(1) {
+    float:left;
+  }
+
+  .image1 img, .image2 img, .image3 img {
+    object-fit:cover;
+  }
+
+  .scrollAnimate {
+    position:absolute;
+    top: 70vh;
+    width:50vw;
+    height:50vw;
+    left:25vw;
+    transform: rotate(90deg);
+    display:none;
+  }
+
+  .fit-image-height img{
+    height: 100%;
+    width: unset!important;
+  }
+
+  .p-2-1-custom img {
+    width: 100%!important;
+    height: unset;
+  }
+  
+  
+  
+  /* ----------- I PAD VERSIE --------------- */
+  
+  @media only screen and (min-width: 661px){
+  
+    /*--- Body styling ---*/
+  
+  }
+  
+  /* ------------ DESKTOP VERSIE -------------- */
+  
+  @media only screen and (min-width:1001px){
+  
+    .outer-wrapper {
+      width: 100vw;
+      height: 100vh; 
+      transform: rotate(-90deg) translateX(-100vh);
+      transform-origin: top left;
+      position:absolute;
+    }
+    
+    .wrapper {
+      display:flex;
+      flex-direction:row;
+      min-width:180vw;
+      transform: rotate(90deg) translateY(-100vh);
+      transform-origin: top left;
+    }
+    
+    .bodyElement {
+      width:100vw;
+      height:100vh;
+    }
+  
+  
+    .intro div{
+      width: 40vw;
+      padding:0;
+      padding-top:30vh;
+    }
+  
+  
+  .active{
+    width:40%;
+  }
+
+  div#header {
+    top: 2vh;
+    left: 7vw;
+    margin-top:5vh;
+    display:flex;
+    overflow-y:scroll;
+    overflow-x:hidden; padding:0;
+}
+  
+  .stickyMobile {
+    display:none;
+  }
+  
+  .stickyWeb {
+    display:inherit;
+  }
+
+  .scrollAnimate {
+    top: 0;
+    left: 70vw;
+    width: 300px;
+    height: 300px;
+    transform: initial;
+    display:initial;
+  }
+
+  .firstSlide {   
+    padding: 20vh 0vw 0 10vw;
+    flex-direction: row;
+   }
+
+   .secondSlide {
+    padding: 10vh 15vw 0 15vw;
+    width:80vw;
+  }
+
+  .content, .secondSlide div:nth-child(2) {
+    width: 50vw;
+    padding:2%;
+    padding-top:5vh;
+  }
+
+  .p-2-1-custom img {
+    width: unset!important;
+    height: 100%;
+  }
+
+  .image1 {
+    width: 30vw;
+    height:70vh;
+    max-height:initial;
+  }
+
+  .image2 {
+    width: 40vw;
+    height: 30vh;
+    max-height:initial;
+  }
+
+  .image3 {
+    width:60vw;
+  }
+
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Home | Blok 4 visual design</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/home.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body >
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper">
+					<article class="bodyElement intro">
+						<div>
+							<h1 class="typewriter monospace lorem big-caret">Welkom bij ons portfolio voor K86</h1>
+							<br/>
+							<p id="mobileIntro">In dit portfolio zijn alle projecten te vinden die wij individueel hebben gemaakt tijdens de minor Visual Design & Front-end Development. We hopen toekomstige K86 studenten hiermee te 
+							helpen en inspireren door onze processen en ervaringen met jullie te delen. 
+							<br/><br/>
+							We raden jullie aan om dit portfolio op een groter beeldscherm te bekijken voor de beste ervaring.</p>
+							<p id="webIntro">In dit portfolio zijn alle projecten te vinden die wij individueel hebben gemaakt tijdens de minor Visual Design & Front-end Development. We hopen toekomstige K86 studenten hiermee te 
+							helpen en inspireren door onze processen en ervaringen met jullie te delen.</p>
+						</div>
+					</article>
+				
+					<aside class="scrollAnimate">
+							<!-- <p>scroll</p>
+							<div class="mouse">
+								<div class="mouse-wheel"></div>
+							</div> -->
+							<lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_e7c8ngee.json" background="transparent"  speed="1.5" loop autoplay class="lottieScroll"></lottie-player>
+							<lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_1b4vs11c.json" background="transparent"  speed="0.5" loop autoplay class="lottieMobile"></lottie-player>
+					</aside>
+				
+					<main class="bodyElement books">
+							<div class="stickyWeb">
+								<div id="container">
+									<div id="header">
+									  <a href="#" onclick="return false;" class="menu menuElement" id="menuWeb"><img src="images/menu.png"></a>
+											<div class="titleText">
+												<h2 class="sticky">Portfolio</h2>
+												<a href="" class="sticky typewrite" data-period="2000" data-type='[ "Chrissy", "Jade", "Patrick", "Roos", "Naomi" ]'></a>
+											</div>
+									</div>
+								</div>
+							</div>
+							<div id="header" class="stickyMobile">
+								<a href="#" onclick="return false;" class="menu menuElement" id="menuMobile"><img src="images/menu.png"></a>
+									  <div class="titleText">
+										  <h2 class="sticky">Portfolio</h2>
+										  <a href="" class="sticky typewrite" data-period="2000" data-type='[ "Chrissy", "Jade", "Patrick", "Roos", "Naomi" ]'></a>
+										</div>
+							  </div>
+							<div class="library">
+								<a href="project1.html">
+									<div class="book 1">
+										<h3>Design systems</h3>
+										<div>
+											<p style="font-weight:bold;">Patrick Gamelkoorn</p>
+											<p >Figma <br/><br/>
+									
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project2.html">
+									<div class="book 2">
+										<h3>Magazine</h3>
+										<div>
+											<p style="font-weight:bold;">Jade van der Tuin</p>
+											<p >InDesign <br/> <br/>
+									
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project3.html">
+									<div class="book 3">
+										<h3>Back-end PHP</h3>
+										<div>
+											<p style="font-weight:bold;">Naomi Beekhuizen</p>
+											<p >VSCode <br/>
+												Codecademy
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project4.html">
+									<div class="book 4">
+										<h3>Motion Graphics</h3>
+										<div>
+											<p style="font-weight:bold;">Chrissy Bril</p>
+											<p >After effects <br/> <br/>
+									
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project5.html">
+									<div class="book 5">
+										<h3>Animation</h3>
+										<div>
+											<p style="font-weight:bold;">Roos Huber</p>
+											<p >After effects <br/>
+												Adobe Animate
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project6.html">
+									<div class="book 6">
+										<h3>Lottie animatie</h3>
+										<div>
+											<p style="font-weight:bold;">Patrick Gamelkoorn</p>
+											<p >Adobe Illustrator <br/>
+												After effects
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project7.html">
+									<div class="book 7">
+										<h3>Image animatie</h3>
+										<div>
+											<p style="font-weight:bold;">Jade van der Tuin</p>
+											<p >After effects <br/> <br/>
+									
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project8.html">
+									<div class="book 8">
+										<h3>Lottie animatie</h3>
+										<div>
+											<p style="font-weight:bold;">Naomi Beekhuizen</p>
+											<p >Adobe Illustrator <br/>
+												After effects
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project9.html">
+									<div class="book 9">
+										<h3>Front-end</h3>
+										<div>
+											<p style="font-weight:bold;">Chrissy Bril</p>
+											<p >VSCode <br/> <br/>
+									
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project10.html">
+									<div class="book 10">
+										<h3>Client case</h3>
+										<div>
+											<p style="font-weight:bold;">Roos Huber</p>
+											<p >Figma <br/> <br/>
+									
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project11.html">
+									<div class="book 11">
+										<h3>3D moduleren</h3>
+										<div>
+											<p style="font-weight:bold;">Patrick Gamelkoorn</p>
+											<p >Adobe Illustrator <br/>
+												Blender
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project12.html">
+									<div class="book 12">
+										<h3>HiFi prototype</h3>
+										<div>
+											<p style="font-weight:bold;">Jade van der Tuin</p>
+											<p >Figma <br/> <br/>
+									
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project13.html">
+									<div class="book 13">
+										<h3>Client case</h3>
+										<div>
+											<p style="font-weight:bold;">Naomi Beekhuizen</p>
+											<p >Figma <br/> <br/>
+									
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project14.html">
+									<div class="book 14">
+										<h3>Isometric design</h3>
+										<div>
+											<p style="font-weight:bold;">Chrissy Bril</p>
+											<p >Adobe Illustrator <br/><br/>
+									
+											</p>
+										</div>
+									</div>
+								</a>
+								<a href="project15.html">
+									<div class="book 15">
+										<h3>Icon design</h3>
+										<div>
+											<p style="font-weight:bold;">Roos Huber</p>
+											<p >Adobe Illustrator <br/> <br/>
+									
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>
+					</main>
+
+					<article class="bodyElement intro">
+						<div>
+							<h2>Nawoord</h2>
+							<br/>
+							<p>Bedankt voor het bekijken van ons werk! We hopen dat het heeft geholpen met een beeld vormen van de minor Visual Design & Front-end Development. Mocht je nog meer informatie willen over de minor in woorden van studenten, klik dan even op de knop hieronder.
+							</p>
+							<br/><br/>
+							<a href="minor.html" class="primairy">Over de minor</a>
+						</div>
+					</article>
+			  </div>
+		  </div>
+
+		  <nav id="menu" class="inactive">
+			<a href="#" onclick="return false;" class="exit"><img src="images/exit.png"></a>
+			<ul>
+				<li><a href="index.html" >Home</a></li>
+				<li><a href="overons.html" >Over ons</a></li>
+				<li><a href="minor.html" >Over de Minor</a></li>
+			</ul>
+		</nav>
+	</body>
+</html>

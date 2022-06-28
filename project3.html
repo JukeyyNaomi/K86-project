@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>Back-end PHP | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper naomi-blok1-project1">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/visualstudiocode.png">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/visualstudiocode.png">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div class="fit-image-height">
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/Naomi/Blok 1/1.png" alt="Recepten overzicht pagina">
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Leren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Oefenen.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Coderen.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 4 -->
+                                    <img src="images/Icons/Itereren.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>Tijdens het eerste blok heb ik mij voorgenomen om mij te gaan verdiepen in de back-end taal PHP. Met PHP kun je via de server side ervoor zorgen dat bepaalde informatie en interactie die via de gebruiker worden uitgevoerd op het systeem, wordt opgeslagen en daar een passende reactie op plaats vindt. Zo kan je een CMS (Content Management System) maken, wordpress thema’s bouwen en contactformulieren ontwikkelen voor jouw website. 
+                                <br/><br/>
+                                Ik heb gekozen om PHP te doen, omdat ik de laatste tijd veel werk met wordpress. Wordpress is veelal opgebouwd uit PHP. Als je een website host, moet je soms ook met het programma PHP my admin kunnen werken. Ook wou ik altijd al een werkend contactformulier kunnen coderen.
+                                </p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Naomi/Blok 1/2.png" class="lazy" alt="Mee coderen tijdens het volgen van een PHP cursus op Codecademy">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>PHP leren</h3>
+                        <p>De eerste stap die ik heb ondernomen is het volgen van de cursus PHP op Codecademy. Ik wilde eerst weten hoe makkelijk ik de code oppak, voordat ik echt kon bepalen wat ik ging maken voor mijn deliverable. Tijdens alle lessen kreeg je drie vensters te zien: een uitleg venster, een code editor venster en een uitwerking in de browser. Wanneer je de theoretische hoofdstukken had afgerond, kon je eerst een kleine quiz doen, daarna werd een praktische opdracht voorgelegd die je stapsgewijs kon maken, om zo goed mogelijk de taal te leren.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height n-1-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Naomi/Blok 1/3.png" class="lazy" alt="Deze icoon illustreert dat ik voor PHP veel onderzoek heb gedaan, maar ook heb geoefend en heb getest.">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Oefenen</h3>
+                        <p>Verschillende codes uit de oefeningen heb ik bestudeerd en opgeslagen, zodat ik hier altijd naar terug kan kijken tijdens de development fase van mijn project. Heel veel codes heb ik eigenlijk al geoefend door Codecademy, dus was het niet heel moeilijk om te bepalen wat ik wou doen voor mijn project. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Naomi/Blok 1/4.png" class="lazy" alt="Onder de recepten, is het voor de gebruikers mogelijk om hun eigen recepten te delen. Zodra het recept ingevoerd is komt het direct op de website terecht. Dit heb ik gebouwd met een custom CMS.">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Coderen</h3>
+                        <p>Uiteindelijk heb ik gekozen om een contactformulier te maken met een soort custom CMS. De gebruiker vult het formulier in, het formulier controleert of de gegevens kloppen en vervolgens worden de gegevens doorgestuurd om een nieuwe post te maken op de pagina. Ik heb gekozen om het concept van de pagina een soort open blog te maken voor mensen die houden van het delen van recepten. De gebruiker voert een recept in en deze komt vervolgens op de website terecht. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Naomi/Blok 1/5.png" class="lazy" alt="Snippet uit de code die ik heb geschreven voor mijn website in PHP">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Itereren</h3>
+                        <p>Ik heb meerdere malen dezelfde code gemaakt, maar elke keer als ik de code opnieuw maakte zorgde ik ervoor dat de code ‘global’ zou worden. Dit houdt in dat je dan niet meer gebonden zou zijn aan een bepaalde ingevoerde variabele en aan de huidige pagina waar je op zit. Je wilt bijvoorbeeld dat de code die is ingevoerd ook zichtbaar is op een productdetail pagina van het recept die de gebruiker zojuist heeft aangemaakt.</p>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Werken en oefenen met Codecademy versnelt en maakt je leerproces efficienter.</li>
+                            <li>Ga vele malen itereren. Je code zal misschien niet in 1x perfect zijn, dus neem je tijd en zoek uit hoe je jouw code kan optimaliseren.</li>
+                            <li>Kies een onderwerp wat je oprecht interesseert en waar je iets mee wilt doen in de toekomst, dan ben je ook meer gemotiveerd tijdens het project.</li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Omdat ik geen MySQL database had, konden de gegevens niet opgeslagen worden, dus je kan het formulier invullen, maar de gegevens vervangen zichzelf. De code opzicht werkt hoe het zou moeten werken en daar ben ik erg blij mee.</p>
+                    </div>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">Back-end PHP</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Naomi</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">Back-end PHP</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Naomi</p> 
+                  </div>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>Projectnaam | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper">
+
+                <article class="bodyElement firstSlide">
+
+                    <!-- VERANDER CLASS 'FIGMA' NAAR HET PROGRAMMA DIE JIJ HEBT GEBRUIKT
+                         OF LAAT STAAN ALS JOUW PROJECT FIGMA IS
+                        - ANIMATE
+                        - AE
+                        - BLENDER
+                        - ILLUSTRATOR
+                        - INDESIGN
+                        - LOTTIE
+                        - VSCODE
+                        ALLEEN KLEINE LETTERS, GEEN HOOFDLETTERS, NEEM TEKST PRECIES OVER ALS HIERBOVEN ^
+                    -->
+
+                    <div class="grid-container-project-intro figma">
+                        
+                        <aside id="featured-image">
+                            <div>
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/vulfoto.jpg">
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Leren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Conceptualiseren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Illustreren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 4 -->
+                                    <img src="images/Icons/Itereren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 5 -->
+                                    <img src="images/Icons/Moduleren.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Intro titel</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. Eu vel pellentesque purus suspendisse vitae, mattis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et.</p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/vulfoto.jpg" class="lazy">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Titel stap 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. Eu vel pellentesque purus suspendisse vitae, mattis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/vulfoto.jpg" class="lazy">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Titel stap 2/alinea titel</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. Eu vel pellentesque purus suspendisse vitae, mattis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/vulfoto.jpg" class="lazy">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Titel stap 3/alinea titel</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. Eu vel pellentesque purus suspendisse vitae, mattis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/vulfoto.jpg" class="lazy">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Titel stap 4/alinea titel</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. Eu vel pellentesque purus suspendisse vitae, mattis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/vulfoto.jpg" class="lazy">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Titel stap 5/alinea titel</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. Eu vel pellentesque purus suspendisse vitae, mattis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/vulfoto.jpg" class="lazy">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Titel stap 5/alinea titel</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. Eu vel pellentesque purus suspendisse vitae, mattis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et.</p>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et.</li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. 
+                        <br/>
+                        Eu vel pellentesque purus suspendisse vitae, mattis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et.</p>
+                    </div>
+                    <!-- PLAATS HIER EVENTUELE LINKS NAAR PROTOTYPE/PUBLICATIES ONLINE/TUTORIALS -->
+                    <a href="#">Plaats hier link voor prototype/ publicatie etc.</a>
+                    <a href="#">Plaats hier link voor prototype/ publicatie etc.</a>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">Project naam</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Chrissy, Jade, Patrick, Roos, Naomi</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">Projectnaam</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Chrissy, Jade, Patrick, Roos, Naomi</p> 
+                  </div>
+        </div>
+	</body>
+</html>

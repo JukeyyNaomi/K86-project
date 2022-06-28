@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>HiFi prototype | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper jade-blok3-project1">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/Figma-logo.svg">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/Figma-logo.svg">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div class="fit-image-height p-2-1-custom">
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/Jade/Blok 3/1.png" alt="Beginscherm van mijn mobiele app">
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Onderzoek.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Oefenen.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Prototypen.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>Als een mooie afsluiter wilde ik een toepasselijke mobiele app bij mijn magazine maken. Het magazine is gericht op het bieden van inspiratie voor alle creatievelingen onder ons. Of je nou iets als een professional doet of het je hobby is. De app heeft hetzelfde doel, maar het biedt ook een online community waar je feedback, inspiratie, tips etc. van kan krijgen. Dit wordt met een wekelijkse design briefing ondersteund. </p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height p-2-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Jade/Blok 3/2.png" class="lazy" alt="Een paar wireframes van mijn mobiele app">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Onderzoek</h3>
+                        <p>Voor vele zal het raar zijn, maar dit is de eerste keer dat ik voor een prototype wireframes kon maken. Het was altijd iemand anders in een groepsopdracht die de taak op zich nam of het was niet nodig. Ik keek vooral naar ‘design an app with me’ video’s, maar tips en trick tutorials waren ook erg behulpzaam. Ook voor dit blok heb ik gebruik gemaakt van mijn vaste trouwe vriend, LinkedIn Learning. Later zocht ik specifiekere tutorials op. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height p-2-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Jade/Blok 3/3.png" class="lazy" alt="Pagina 2 van het onboarding proces - wireframe & prototype versie">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Oefenen, wireframes</h3>
+                        <p>In het begin keek ik een paar YouTube tutorials, maar ik begon al vrij snel met mijn eerste scherm. Ik had ook bedacht dat ik een onboarding proces wilde maken. Aangezien dit de eerste keer was, heb ik op Behance, Pinterest maar voornamelijk op Mobbin.com voor inspiratie gekeken. Door dit soort inspiratie bronnen tussendoor te gebruiken en door de ‘volg’ tutorials van Youtube, merkte ik dat ik al vrij snel aardig wat wireframes af had.   </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Jade/Blok 3/4.png" class="lazy" alt="Homepagina van het mobiele prototype">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Prototype maken</h3>
+                        <p>Tijdens het invullen van de content, merkte ik dat ik mijzelf erg verbaasde. Voor iedereen die dit leest klinkt dit misschien raar. Maar ik ben iemand die bijna nooit hardop kan zeggen dat ik oprecht blij ben met wat ik heb opgeleverd. Maar doordat ik mijzelf de tijd heb gegeven om Figma onder de knie te krijgen, te bedenken wat IK nou echt leuk vind (aangezien ik ook de doelgroep ben), merkte ik dat ik moeite had om pauzes te nemen, omdat ik maar door en door wilde blijven gaan. </p>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Verzamel inspiratie, ui do’s en dont’s als richtlijn.</li>
+                            <li>Maak meerdere varianten van 1 scherm en vraag om feedback.</li>
+                            <li>Blijf niet hangen bij tutorials en cursussen, maar oefen gelijk al. Maak 2/3 schermen van je favoriete apps bijvoorbeeld als oefening. </li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Ik begreep auto layout niet meteen, maar ik gebruikte het wel bij het verder invullen en aanvullen van mijn prototype. Ik raad andere daarom ook aan om niet eigenwijs te zijn (zoals ik), maar om langer de tijd te nemen om iets echt 100% te begrijpen. </p>
+                    </div>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">HiFi prototype</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Jade</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">HiFi prototype</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Jade</p> 
+                  </div>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>Lottie animatie | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper patrick-blok2-project1">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/aftereffects.png">
+                                &nbsp;
+                                <img src="images/illustrator.png">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/aftereffects.png">
+                                &nbsp;
+                                <img src="images/illustrator.png">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div class="fit-image-height">
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/Patrick/blok 2/1.png" alt="Visual van een lottie animatie in een iphone mockup">
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Leren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Oefenen.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Animeren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 4 -->
+                                    <img src="images/Icons/Implementeren.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>Dit blok wilde ik graag aan de slag met bewegend beeld. Bewegend beeld is erg populair en wordt op vele verschillende manieren ingezet. Het leek mij een mooie toevoeging om hier ook wat over te leren. Daarom ben ik Lottie animaties gaan maken (kleine korte animaties). Dit zijn animaties die later ook in websites of prototypes gebruikt kunnen worden. </p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height p-2-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Patrick/blok 2/2.png" class="lazy" alt="After effects certificaat van een linkedin learning cursus">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Cursus</h3>
+                        <p>Ik had nauwelijks tot geen ervaring met animeren, daarom ben ik gestart met het volgen van een cursus op Linkedin Learning. Hier heb ik de logica achter het programma After Effects een beetje op kunnen pakken en de basis over het programma geleerd. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_menhuote.json" background="transparent"  speed="1.5" loop autoplay></lottie-player>
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Oefenen</h3>
+                        <p>Na het volgen van de cursus ben ik gaan oefenen met de meest simpele animaties om zelf ook wat gevoel te krijgen bij de software. Dit heeft geresulteerd in de meest korte en lelijke animaties, maar deze hebben wel geholpen bij het leerproces. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_h2wdq0au.json" background="transparent"  speed="1.5" loop autoplay></lottie-player>
+                        
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Animeren</h3>
+                        <p>Toen ik het animeren een beetje onder de knie had heb ik een lijst gemaakt met Lotties die ik graag wilde maken. Deze ben ik van boven naar beneden af gaan werken. Dit was een hoop animatie werk. Bij iedere animatie heb ik geprobeerd een nieuwe techniek te gebruiken om zoveel mogelijk over het programma te leren.  </p>
+                    </div>
+                </article>
+
+                <article class="projectStep p-1-2-custom">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Patrick/blok 2/5.png" class="lazy" alt="Visual van een meerdere lottie animaties in een iphone mockup">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Implementeren</h3>
+                        <p>Na het animeren en het publiceren van al mijn lotties heb ik een prototype gemaakt in Figma om mijn eigen animaties in te gebruiken. Dit wilde ik doen om te leren hoe ik mijn prototypes kon uitbreiden met bewegend beeld. Zie hier een korte preview.  </p>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Maak een goede planning en gun jezelf wat buffers als dingen langer duren dan verwacht.</li>
+                            <li>Hou je code netjes en maak aantekeningen, zo blijft alles overzichtelijk.</li>
+                            <li>Werk even ergens anders aan als je vastloopt, zo hou je je hoofd rustig.</li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Dit project was erg leuk om te doen, vooral omdat ik nu beide kanten van het vakgebied kon samenvoegen. Ik vergeet soms wel hoe lastig een website coderen ook alweer is, en dat heb ik deze weken zeker gemerkt. Het heeft even wat bloed zweet en tranen gekost, maar uiteindelijk ben ik erg tevreden met het resultaat.</p>
+                    </div>
+                    <!-- PLAATS HIER EVENTUELE LINKS NAAR PROTOTYPE/PUBLICATIES ONLINE/TUTORIALS -->
+                    <a href="https://lottiefiles.com/cjbw2tzx92" target="_blank">Klik hier om al mijn Lotties te bekijken</a>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">Lottie animatie</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Patrick</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">Lottie animatie</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Patrick</p> 
+                  </div>
+        </div>
+	</body>
+</html>

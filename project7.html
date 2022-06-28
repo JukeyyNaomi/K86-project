@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>Image animatie | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper jade-blok2-project1">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/aftereffects.png">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/aftereffects.png">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div class="custom fit-image-height p-2-1-custom">
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/Jade/Blok 2/1.png" alt="Frank ocean spread">
+                                <a href="https://youtu.be/fko72_TkhWU" class="link-button" target="_blank"><img src="images/link.svg" alt="Link naar video"></a>
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Onderzoek.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Oefenen.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Animeren.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>In het 1ste blok leek het mij al heel erg leuk om in alle 3 de blokken te werken aan projecten die goed bij elkaar aansluiten. After Effects was ook een programma waarin ik al een tijd niet meer in heb gewerkt. Ik had meteen al bedacht dat ik het meeste kon met mijn ‘muziek’ thema, maar wat ik daar precies mee wilde doen wist ik nog niet meteen. Uiteindelijk heb ik ervoor gekozen om de spreads die ik voor dat thema heb gemaakt, te animeren.  </p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height p-2-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Jade/Blok 2/2.png" class="lazy" alt="Voorbeeld tutorial over het animeren van afbeeldingen">
+                        <a href="https://youtu.be/dBoKHv81FXI" class="link-button" target="_blank"><img src="images/link.svg" alt="Link naar video"></a>
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Onderzoek</h3>
+                        <p>Allereerst heb ik een verfrissende cursus op LinkedIn Learning over AE gevolgd. Vervolgend heb ik op YouTube specifiekere video’s bekeken zoals: Hoe animeer je een stilstaande foto of Hoe animeer je een Photoshop bestand in AE. Ik heb hiervoor in Notion alle video’s geplaatst en die heb ik 1 voor 1 bekeken. Door de video’s ben ik erachter gekomen dat ik gebruik moest maken van de ‘puppet tool’. Daar had ik nog nooit van gehoord, dus ik heb er eerst mee geoefend.  </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height p-2-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Jade/Blok 2/3.png" class="lazy" alt="Labrinth spread">
+                        <a href="https://youtu.be/dBoKHv81FXI" class="link-button" target="_blank"><img src="images/link.svg" alt="Link naar video"></a>
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Oefenen</h3>
+                        <p>Ik ben erachter gekomen dat je afbeeldingen zorgvuldig moet selecteren als je gebruik wilt maken van de puppet tool. Dat was zeker een leermoment voor mij. Ik wist niet toen ik aan mijn magazine begon en de spreads ging maken, dat ik in het 2de blok dezelfde spreads wilde gebruiken in AE. Van de 4 animaties die ik heb gemaakt, merkte ik bij de animatie van de Rihanna spread dat ik niet veel gebruik van de puppet tool kon maken.  </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height p-2-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Jade/Blok 2/4.png" class="lazy" alt="Rihanna spread">
+                        <a href="https://youtu.be/BKoU7TDhNZ4" class="link-button" target="_blank"><img src="images/link.svg" alt="Link naar video"></a>
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Animeren</h3>
+                        <p>Ik zie de animatie van Rihanna vooral als een oefen project. Ik heb er van geleerd en bij de animaties die ik daarna heb gemaakt, heb ik ook meer nagedacht over het ‘bericht’ dat ik wil overbrengen met de animaties. Ze zijn allemaal erg uniek van elkaar, vanwege de artiest en vertellen daarom ook een apart verhaal. Door mijzelf meer tijd te geven om te spelen met verschillende animatie mogelijkheden heb ik dit meer kunnen overbrengen. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Jade/Blok 2/5.png" class="lazy" alt="Harry Styles spread">
+                        <a href="https://youtu.be/AlIPqZEmY4I" class="link-button-top" target="_blank"><img src="images/link.svg" alt="Link naar video"></a>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Maak in Notion (of een soortgelijke app) een overzicht van alle gevonden tutorials/blog. Zo heb je al je bronnen/inspiratie op 1 plek. </li>
+                            <li>Beperk jezelf niet tot enkele animatie effecten. Probeer er meerdere uit, wees niet bang om te falen en vraag tussendoor om feedback. </li>
+                            <li>Als je op muziek wilt animeren, kies dan eerst het stukje muziek dat je wilt gebruiken en animeer dan vervolgens op de beat. </li>
+                            <li>Zoek veel gebruikte shortcuts op van te voren.</li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Wacht niet tot het einde van je animaties om feedback van klasgenoten en docenten te vragen. Uiteindelijk gaven de docenten aan dat ik de Rihanna animatie als een oefening kon zien en met de kennis die ik heb opgenomen bij de laatste 2 animaties beter moest nadenken over de redenen van effecten en posities.   </p>
+                    </div>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">Image animatie</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Jade</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">Image animatie</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Jade</p> 
+                  </div>
+        </div>
+	</body>
+</html>

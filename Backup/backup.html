@@ -1,0 +1,90 @@
+<!-- Backup -->
+
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Blok 4 - visual design</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="main.css" rel="stylesheet" />
+		 <script src="main.js" defer ></script>
+		 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script> -->
+		 <!-- <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css" rel="stylesheet"/> -->
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $('html, body').animate({
+            scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+            window.location.hash = hash;
+            });
+            } 
+            });
+            });
+            </script>
+	
+		
+	</head>
+	<body>
+	  	<header class="grid-item header" id="header">
+	  	    <div class="headmenu" id="navbar">
+	  		   <!-- <img src="Icons/logonb.svg" id="logo"/> -->
+	  		   <div class="menutoggle" id="navbar-right">
+		      		<h1>&#9776;</h1>
+		      	</div>
+		    </div>
+		    <!-- <div class="back">
+		          <a href="index.html">
+		          <img src="Icons/ios-arrow-back.svg"/>Terug
+	              </a>
+		    </div> -->
+		    <nav id="menu" class="inactive">
+		    
+	    	<!--  MENU TOGGLE ZICHTBAAR OP KLEIN DESKTOP. -->
+	    	<ul>
+	    		<li><a href="index.html">Home</a></li>
+	    		<li><a href="index.html">Wat ik doe</a></li>
+	    		<li><a href="index.html">Projecten</a></li>
+	    		<li><a href="index.html">Wie ben ik</a></li>
+	    		<li><a href="index.html">Contact</a></li>
+	    		<li><a href="index.html">NL/EN</a></li>
+	    		 
+	    	  </ul>
+	       </nav>
+        </header>
+        
+        <article class="bodyElement intro">
+            <div>
+                <h1>Welkom bij ons portfolio voor K86</h1>
+                <br/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id cras est lacinia velit ornare interdum adipiscing proin luctus. Commodo magna nec pretium amet ipsum in neque et. Tristique porttitor hac vulputate ornare amet nunc consequat. Purus aliquet turpis gravida ut. Mauris dignissim enim tempor ut ultrices. Eu vel pellentesque purus suspendisse vitae, mattis consectetur.</p>
+            </div>
+        </article>
+
+        <aside class="scrollAnimate">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+        </aside>
+	    
+	    <!-- <footer class="grid-item foot">
+            <a href="https://www.facebook.com/naomi.beekhuizen/" target="_blank"><img src="Icons/logo-facebook.svg"/></a>
+            <a href="https://www.instagram.com/_naomi.beekhuizen_/" target="_blank"><img src="Icons/logo-instagram.svg"/></a>
+            <a href="https://www.youtube.com/channel/UCeIPI-AT-t_ER2jJ9ESaVGw" target="_blank"><img src="Icons/logo-youtube.svg"/></a>
+            <a href="https://www.linkedin.com/in/naomi-beekhuizen-9161381b9/" target="_blank"><img src="Icons/linkedin-in.svg"/></a>
+	    </footer> -->
+            
+
+	 
+	</body>
+</html>

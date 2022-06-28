@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>Motion graphics | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper chrissy-blok2-project1">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/aftereffects.png">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/aftereffects.png">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div>
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/Chrissy/Blok 1/1.png" alt="Eerste beeld van mijn Motion Graphics video">
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Leren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Oefenen.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Animeren.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>Overal om ons heen worden Motion Graphics gebruikt, denk maar aan reclames en YouTube video’s. Doordat er zoveel mee mogelijk is leek het me enorm gaaf om dit zelf te leren en wat mee te experimenteren. Hiervoor heb ik heel af en toe wat in After Effects gedaan voor andere doeleinden, dit moest ik dus ook gaan leren. Mijn doel was om een aantal korte intro’s en outro’s te maken die anderen bijvoorbeeld zouden kunnen gebruiken in hun eigen video’s.</p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Chrissy/blok 1/2.png" class="lazy" alt="Tutorial over After Effects die ik heb gevolgd">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Leren</h3>
+                        <p>Om te beginnen leek het mij verstandig om op zoek te gaan naar een cursus over het gebruik van After Effects voor motion graphics, After Effects heeft namelijk veel verschillende manieren om mee te werken. Op Skillshare heb ik een enorm uitgebreide cursus gevonden die doormiddel van een Taco Truck Game alle in’s en out’s van het programma uitlegt. Hierdoor had ik de kans om de kennis en skills die werden uitgelegd ook meteen toe te passen.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Chrissy/blok 1/3.png" class="lazy" alt="Een screenshot van een van mijn animaties">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Oefenen</h3>
+                        <p>Toen ik een hele hoop kennis op zak had, ben ik met eigen content gaan oefenen met de verschillende functies van After Effects. Ook heb ik wat extra dingen geleerd over het animeren van tekst, omdat ik dit graag wilde toevoegen aan mijn video’s. Hier ben ik ongeveer een week mee bezig geweest totdat ik het gevoel had dat ik de meeste dingen die ik wilde leren redelijk onder de knie had.</p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Chrissy/blok 1/4.png" class="lazy" alt="Een screenshot van een van mijn YouTube intro's">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Animeren</h3>
+                        <p>Uiteindelijk was het tijd om mijn eigen intro’s en outro’s te gaan maken. Hiervoor heb ik wat inspiratie opgedaan door te kijken naar reclames en intro’s van youtubers die ik volg, en ben vervolgens met mezelf gaan brainstormen over ideeën en content. Met die ideeën ben ik gaan werken en deze heb ik aan het einde samengevoegd in 1 video die ik later als showcase kon gebruiken.</p>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Neem je tijd om dingen uit te zoeken en goed te begrijpen hoe het programma werkt.</li>
+                            <li>Denk van tevoren goed na over de inhoud en het verloop van je video’s, dat maakt het animeren later een stuk makkelijker.</li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Ik moet toegeven dat ik dit onderwerp van tevoren lichtelijk heb onderschat, waardoor ik mezelf redelijk wat stress heb gegeven aan het einde van dit blok. Uiteindelijk ben ik wel erg blij met wat ik allemaal heb kunnen leren, en ook trots op wat ik heb weten neer te zetten.</p>
+                    </div>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">Motion graphics</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Chrissy</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">Motion graphics</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Chrissy</p> 
+                  </div>
+        </div>
+	</body>
+</html>

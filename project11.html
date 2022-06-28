@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>3D moduleren | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/blender.png">
+                                &nbsp;
+                                <img src="images/illustrator.png">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/blender.png">
+                                &nbsp;
+                                <img src="images/illustrator.png">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div class="fit-image-height p-2-1-custom">
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/Patrick/blok 3/1.png" alt="3D render van een iPhone 12 Pro Max">
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Leren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Moduleren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Textuur.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 4 -->
+                                    <img src="images/Icons/Conceptualiseren.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 5 -->
+                                    <img src="images/Icons/Renderen.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>3D Visuals zie je steeds meer op verschillende plekken. Naast dat het op dit moment een veelvoorkomend iets is leek het mij een mooie toevoeging op mijn huidige skill set. Met het werken in 3D krijg je met veel verschillende dingen te maken zoals andere denkprocessen, belichting en textuur. Mijn eigen visuals kunnen maken leek mij ook heel erg vet. </p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Patrick/blok 3/2.png" class="lazy" alt="3D model van een donut aan het begin van het proces">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Basis leren</h3>
+                        <p>Bij de start van dit blok had ik nog nooit iets met 3D gedaan. Voor het werken in Blender ben ik gestart bij het leren van de basics door middel van een super uitgebreide tutorial over het maken van een 3D donut. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Patrick/blok 3/3.png" class="lazy" alt="3D visual van de eerste poging om een iPhone te moduleren">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Moduleren</h3>
+                        <p>Met de basics onder de knie ben ik mijn eerste iPhone model gaan maken. Dit ging totaal niet soepel. Ik ben tegen ontzettend veel problemen aangelopen, maar met een beetje hulp en youtube video’s ben ik toch geslaagd in het maken van mijn eerste model. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Patrick/blok 3/4.png" class="lazy" alt="3D model van de tweede poging om een iPhone te moduleren in edit mode">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <p>Mijn eerste model zat technisch niet goed in elkaar, maar dit heeft me wel een hoop geleerd over hoe het is om te werken in Blender. Van alle fouten die ik maakte bij model heb ik geleerd en al mijn bevindingen toegepast in model 2. Dit zijn dingen als hoeveel segmenten je moet gebruiken om de hoeken af te ronden, met de juiste schaal werken (mijn eerste model was 3 meter in de lengte) etc. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Patrick/blok 3/5.png" class="lazy" alt="Uitsnede van een 3D model van een iPhone 12 waar pas net textuur aan toe is gevoegd.">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Textuur toevoegen</h3>
+                        <p>Met een definitief model stapte in een nieuwe wereld binnen. Textuur geven aan mijn model. Dit was nog best een pittig stuk van dit blok, maar wel een stuk wat het eindresultaat zeer ten goede komt. Het was vooral veel zoeken naar de juiste settings voor metaal en glas structuren. Dit heeft uiteindelijk goed uitgepakt. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Patrick/blok 3/6.png" class="lazy" alt="3D model van een iPhone 12 waar de belichting toe wordt gevoegd">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Belichting</h3>
+                        <p>Voor de belichting heb ik mijn inspiratie opgedaan door te kijken naar visuals van apple. Hoe belichten zij hun producten? Ik heb geprobeerd te achterhalen waar de lichtbronnen stonden ten opzichte van de producten en dit geprobeerd na te maken.  </p>
+                    </div>
+                </article>
+
+                <article class="projectStep p-1-2-custom">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Patrick/blok 3/7.png" class="lazy" alt="De definitieve 3D render van het iPhone 12 model ">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Renderen</h3>
+                        <p>Ik ben uiteindelijk erg blij met het eindresultaat. Er zijn naar mijn mening vette visuals uitgekomen na enkele weken. Van 0 ervaring tot platen waar ik trots op ben. </p>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>De beste tip bij een start in Blender is om gelijk zoveel mogelijk sneltoetsen uit je hoofd te leren. Dit maakt het werken en navigeren in de software echt vele malen prettiger. </li>
+                            <li>Het is mogelijk om te werken in Blender zonder muis, maar deze zou ik toch ten strengste aanraden. Je zou jezelf hier een groot plezier mee doen.  </li>
+                            <li>Ik heb een support-document gemaakt na mijn blok. Hierin staan nog meer tips over filmpjes en instellingen voor het renderen van je werk, Als dit je interessant lijkt kan je dit navragen bij de k86 docenten.  </li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Dit blok was echt een rollercoaster. Voor mij was het niet gemakkelijk om met Blender aan de slag te gaan, maar aan het einde van dit blok was ik wel trots. Ik had niet verwacht dat ik er wat van zou bakken en dat is naar mijn idee toch nog wel gelukt. Ik vond het erg leuk om te doen als ik erop terugkijk.  
+                        <br/>
+                        Ik wilde mijn werk ook graag delen met anderen. Sketchfab.com is een website waar je jouw 3D modellen kan uploaden en die van anderen kan downloaden. Dit is ook wat ik heb gedaan. Bij het uploaden van mijn model is er helaas wat misgegaan met de structuren, maar mocht je het leuk vinden, is hier de link: 
+</p>
+                    </div>
+                    <!-- PLAATS HIER EVENTUELE LINKS NAAR PROTOTYPE/PUBLICATIES ONLINE/TUTORIALS -->
+                    <a href="https://skfb.ly/ouLsy " target="_blank">Klik hier voor de bestanden op sketchfab.com</a>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">3D Moduleren</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Patrick</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="index.html" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">3D Moduleren</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Patrick</p> 
+                  </div>
+        </div>
+	</body>
+</html>

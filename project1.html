@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+
+        <!-- VERANDER ALLEEN PROJECTNAAM -->
+		<title>Design systems | Blok 4 visual design</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/projects.css" rel="stylesheet" />
+		<link rel="icon" href="images/tab-icon.png">
+		<script src="main.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script>
+            $(document).ready(function(){
+            
+            $("a").on('click', function(event) {
+
+            if (this.hash !== "") {
+
+            event.preventDefault();
+
+            var hash = this.hash;
+
+				$('html, body').animate({
+				scrollTop: $(hash).offset().top - 200
+				}, 800, function(){
+
+				//window.location.hash = hash;
+
+				});
+            } 
+            });
+            });
+            
+            </script>
+	</head>
+
+	<body>
+		
+		  <div class="outer-wrapper">
+			  <div class="wrapper patrick-blok1-project1">
+
+                <article class="bodyElement firstSlide" id="top">
+                    <div class="grid-container-project-intro">
+
+                        <aside id="programs">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/Figma-logo.svg">
+                            </div>
+                        </aside>
+
+                        <aside id="programsWeb">
+                            <p>Gebruikte software</p>
+                            <div>
+                                <img src="images/Figma-logo.svg">
+                            </div>
+                        </aside>
+                        
+                        <aside id="featured-image">
+                            <div>
+                                <!-- VUL JE FEATURED FOTO IN -->
+                                <img src="images/Patrick/blok 1/1.png" alt="Product detail pagina van een nespresso cup in een macbook mockup">
+                            </div>
+                        </aside>
+
+                        <article id="icons">
+                            <div class="stepsIcons">
+                                <div class="stepContainer">
+                                    <!-- HEB JE MINDER STAPPEN DAN 5, VERWIJDER DE SRC LINK
+                                        -Conceptualiseren en belichten (blender) zijn hetzelfde icon
+                                    -->
+
+                                    <!-- ICON STAP 1 -->
+                                    <img src="images/Icons/Onderzoek.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 2 -->
+                                    <img src="images/Icons/Bouwen.png">
+                                </div>
+                                <div class="stepContainer">
+                                    <!-- ICON STAP 3 -->
+                                    <img src="images/Icons/Gebruiken.png">
+                                </div>
+                            </div>
+                        </article>
+
+                        <main id="intro-text">
+                            <div>
+                                <!-- SCHRIJF HIER INTRO EN EVENTUELE TITEL -->
+                                <h3>Voorwoord</h3>
+                                <p>Op dit moment is Figma de meest gebruikte tool voor prototyping en UI design. In het hergebruiken van componenten en het gebruik maken van design systems loopt Figma op dit moment op kop. Om deze reden wilde ik graag zelf een design system leren maken om beter te begrijpen hoe dit in elkaar zit en hoe je hier het beste mee kan werken. Dit is een relevante skill voor later in het werkveld. </p>
+                            </div>
+                        </main>
+
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' IN JOUW FOTO VOOR STAP 1 -->
+                        <img data-src="images/Patrick/blok 1/2.png" class="lazy" alt="Visualisatie van de stappen van atoom tot pagina volgens de theorie van Brad Frost">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST STAP 1 IN -->
+                        <h3>Onderzoek</h3>
+                        <p>Bij het onderzoeken heb ik vooral veel gelezen en naar best practices gekeken. Ik kwam snel bij het boek Atomic design van Brad Frost die uitlegt hoe de opbouw werkt. Dit was een goed startpunt om de kracht van een design system te leren begrijpen. De voorbeelden in zijn boek gaven mij veel inzicht over hoe ik zelf een design system op kon gaan bouwen. Dit ben ik gaan doen (fictief) voor Nespresso. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage fit-image-height p-1-1-custom">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Patrick/blok 1/3.png" class="lazy" alt="Opbouw van atoom tot organisme bestaande uit meerdere elementen die een productkaartje vormen">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Data system bouwen</h3>
+                        <p>Met genoeg kennis op zak ben ik zelf begonnen met een kleinschalig design system maken. Ik heb een voorbeeld genomen aan de opbouw van Brad Frost. Met zogenaamde atoms beginnen en die uitbouwen naar pages. Dit was in het begin een hoop werk, zeker omdat Figma ook nieuw terrein was. Achteraf heeft alles geresulteerd in een klein design system en een nieuwe kijk op design, wat voor mij erg waardevol is. </p>
+                    </div>
+                </article>
+
+                <article class="projectStep">
+                    <div class="projectImage">
+                        <!-- VERANDER 'VULFOTO.JPG' FOTO VOOR NIEUWE STAP OF EXTRA ALINEA VORIGE STAP -->
+                        <img data-src="images/Patrick/blok 1/4.png" class="lazy" alt="Atomic design uitgelegd in een beeld van lego creators.">
+                    </div>
+                    <div>
+                        <!-- VUL HIER TEKST VOOR DE VOLGENDE STAP/ OF EXTRA ALINEA VAN VORIGE STAP -->
+                        <h3>Design system gebruiken</h3>
+                        <p>Toen mijn kleine design system af was werd het zo ontzettend makkelijk om nieuwe pagina’s te designen. Alle gemaakte elementen zijn herbruikbaar waardoor je heel makkelijk alles in een design om kan bouwen. De kracht van design systems werd mij door dit te doen nog duidelijker. Daarnaast was dit ook leuk om te doen. Om jou ook een beter beeld te geven van de kracht van zo’n systeem is hier een leuk plaatje om mee af te sluiten. </p>
+                    </div>
+                </article>
+
+                <article class="summary">
+                    <div id="tips">
+                        <h3>Tips</h3>
+                        <!-- VUL HIER JOUW TIPS IN, HEB JE MEER DAN 3? KOPIEER EN PLAK EEN LIST ITEM -->
+                        <ul>
+                            <li>Voor het leren begrijpen van design systems is mijn beste tip om het boek Atomic Design van Brad Frost te lezen, dit helpt je een heel stuk op weg. </li>
+                            <li>Probeer naast de vaardigheid om design systems te leren/kunnen bouwen en gebruiken ook eens anders te kijken naar design. Dit kan best een eye-opener zijn voor hoe vele designs in elkaar zitten. </li>
+                            <li>Test je eigen design system bij een medestudent. </li>
+                        </ul>
+                    </div>
+                    <div id="experiences">
+                        <h3>Ervaring</h3>
+                        <!-- SCHRIJF HIER JE ERVARINGEN / CONCLUSIE OVER HET PROJECT -->
+                        <p>Ik voelde me na dit blok erg voldaan. Mede omdat ik het gevoel had dat ik er een hele nuttige skill bij heb geleerd, maar ook dat ik Figma toe heb kunnen voegen aan de lijst van software waar ik mee kan werken. Het was ontzettend leuk om te doen en ik zou het bij iedereen aan kunnen raden. In mijn ogen erg nuttig. </p>
+                    </div>
+                </article>
+
+                </div>
+		  </div>
+
+          <div class="scrollToTop">
+            <a href="#top"><img src="images/arrow-circle-up.svg"></a>
+          </div>
+
+          <div class="stickyWeb">
+            <div id="container">
+                <div id="header">
+                  <a href="index.html" class="menuElement back" id="menuWeb"><img src="images/exit.png"></a>
+                        <div class="titleText">
+                            <!-- VUL PROJECTNAAM IN -->
+                            <h2 class="sticky">Design systems</h2>
+                            <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                            <p class="sticky">Patrick</p> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" class="stickyMobile">
+            <a href="#" class="menuElement back" id="menuMobile"><img src="images/exit.png"></a>
+                  <div class="titleText">
+                      <!-- VUL PROJECTNAAM IN -->
+                      <h2 class="sticky">Design systems</h2>
+                      <!-- LAAT ALLEEN JOUW NAAM STAAN -->
+                      <p class="sticky">Patrick</p> 
+                  </div>
+        </div>
+	</body>
+</html>
