@@ -96,6 +96,7 @@ div#header {
     height:80vw;
     display:flex;
     align-items:center;
+    overflow:hidden;
   }
   
   #featured-image div img{
