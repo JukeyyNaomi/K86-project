@@ -47,7 +47,11 @@ a:hover, button:hover {
 a.sticky {
   text-decoration:none;
   cursor: unset;
-  font-size:1.2em;
+  font-size:1.4em;
+}
+
+p.sticky {
+  font-size:1.4em;
 }
 
 h1{
@@ -61,6 +65,11 @@ h2 {
   font-size: 30px;
   line-height:1.5em;
   font-family: "Prata";
+}
+
+h2.sticky {
+  padding-top:5px;
+  margin-top:0;
 }
 
 h3 {
@@ -121,7 +130,6 @@ a.secundairy:hover {
   transition:ease-in-out 0.25s;
   cursor:pointer;
 }
-
 
 @media only screen and (min-width:1001px){
     

@@ -1,5 +1,26 @@
 /* Header styling */
 
+@font-face {
+  font-family: "Prata";
+  src:url("../fonts/Prata-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat regular";
+  src:url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat bold";
+  src:url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat semibold";
+  src:url("../fonts/Montserrat-SemiBold.ttf");
+}
+
+
 .menu img {
     width:70px;
   }
@@ -51,6 +72,8 @@
   
   nav ul li a {
     text-decoration:none;
+    font-family:"Prata";
+    line-height:2.5em;
   }
   
   nav ul li a:hover {
@@ -102,7 +125,7 @@
   .intro div{
     width: 85vw;
     margin: 0 auto;
-    padding-top: 25vh;
+    padding-top: 15vh;
     text-align:center;
   
   }
@@ -152,7 +175,6 @@
   .book h3{
     font-size:1.5em;
     margin-bottom:0;
-    font-family: "Prata";
     color:#005EF5;
   }
   
@@ -165,7 +187,9 @@
   }
   
   .book div p:first-child {
-    min-width:150px;
+    min-width:180px;
+    font-family: "Montserrat semibold";
+    text-transform: uppercase;
   }
 
   #webIntro {
@@ -256,7 +280,7 @@
   
   
   .books {
-    min-width:300vw;
+    min-width:285vw;
   }
   
   .library {

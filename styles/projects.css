@@ -1,5 +1,9 @@
 /* Header styling */
 
+h3 {
+  font-size:1.4em;
+}
+
 .menuElement img {
     width:40px;
   }
@@ -319,7 +323,7 @@ div#header {
     z-index:99999;
     position:absolute;
     bottom: 20px;
-    left: 20px;
+    left: 7vw;
   }
 
   .grid-container-project-intro :is(#feature-image, #icons, #intro-text){
