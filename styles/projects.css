@@ -296,7 +296,9 @@ div#header {
     margin-top:5vh;
     position:fixed;
     display:flex;
-    overflow-y:scroll;
+    /* overflow-y:scroll; */
+    overflow-y:unset; 
+
     overflow-x:hidden; 
     padding:0;
 }
