@@ -24,8 +24,8 @@ div#header {
     max-width:380px;
     display:flex;
     gap:15px;
-    overflow-y:scroll;
-    overflow-x:hidden;
+    /* overflow-y:scroll; */
+    /* overflow-x:hidden; */
 }
 
   div.stickyWeb {
@@ -297,9 +297,9 @@ div#header {
     position:fixed;
     display:flex;
     /* overflow-y:scroll; */
-    overflow-y:unset; 
+    /* overflow-y:unset;  */
 
-    overflow-x:hidden; 
+    /* overflow-x:hidden;  */
     padding:0;
 }
 
